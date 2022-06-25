@@ -1,9 +1,14 @@
 import React from 'react';
-import Navbar from '../../../../Assignment-12/drilled-client-site/src/Shared/Navbar';
+import './Home.css'
+import Navbar from '../Shared/Navbar/Navbar';
 
 const Home = () => {
     return (
-        <Navbar></Navbar>
+        <div className='background-cover'>
+            <div className='background-overlay'>
+                <Navbar></Navbar>
+            </div>
+        </div>
     );
 };
 
