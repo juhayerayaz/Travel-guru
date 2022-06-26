@@ -1,7 +1,11 @@
 .swiper-container {
     padding-top: 236px;
 }
-
+.swiper-slider{
+width: 270px !important;
+    height: 416px !important;
+    border-radius: 20px;
+}
 .slide-1 {
     background: url('../../images/Rectangle\ 1.png') center/cover;
     width: 270px !important;
